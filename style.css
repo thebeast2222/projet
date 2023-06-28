@@ -1,0 +1,246 @@
+header{
+    font-style: italic;
+    width: 40%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    
+}
+body{
+    background-color: rgb(237, 232, 226);
+}
+h1{
+    font-size: 50px;  
+}
+.new_head{
+    margin-top: 25px;
+    padding-right: 5px;
+    height: 80px;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color1:#D89584;  
+    --color2:#F4F4F4;}
+.forhead1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--color2);
+    align-items: center;
+    height: 100px;
+}
+div.head1 {
+    display: inline;
+    margin-right: 20px;
+   
+   
+}
+div.on_head1{
+    position: relative;
+    text-align: center;
+    
+}
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-5px);
+    }
+    20% {
+      transform: translateX(5px);
+    }
+    30% {
+      transform: translateX(-5px);
+    }
+    40% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(-5px);
+    }
+    60% {
+      transform: translateX(5px);
+    }
+    70% {
+      transform: translateX(-5px);
+    }
+    80% {
+      transform: translateX(5px);
+    }
+    90% {
+      transform: translateX(-5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+div.on_head11 p{
+    border:2px solid black;
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: rgb(240, 246, 249);
+    animation: shake 0.5s  ;
+   
+}
+div.on_head11 p:hover{
+    border:2px solid black;
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    background-color: white;
+}
+div.on_head11 a{
+color:rgb(251, 70, 70)
+
+}
+div.on_head11 a:hover{
+    color:red;
+    background-color: white;
+    }
+.head1:hover a {
+    color:var(--color1);
+    transition: 0.4s;
+}
+div.head1 a{
+    color: black;
+    font-weight: bold;
+   
+    
+    
+}
+.forhead2{
+    background: url(Sofás\ cómodos\ y\ modernos\ que\ van\ a\ actualizar\ tu\ salón\ \(1\).jpeg) center/100% 100%;
+    position: relative;
+    height: 400px;
+    filter: brightness(0.9); 
+}
+.onhead2 {
+    text-align: center;
+    position: absolute;
+    top: 30%; 
+    left: 53%;
+    transform: translate(-50%, -50%); 
+    
+}
+.head2{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(16, 1, 1);
+}
+input[type="text"] {
+    width: 270px; 
+    height: 30px;
+    top:70%
+}
+.search-form {
+    position: relative;
+    display: inline-block;
+
+}
+
+.search-input {
+padding-right: 30px;
+position: relative;
+margin-top: 50px;
+}
+
+.search-icon {
+position: absolute;
+top: 50%;
+right: 10px; 
+transform: translateY(-50%);
+cursor: pointer;
+margin-top: 25px;
+}
+div.separateur{
+background-color: #979797;
+height:1px;
+width: 150px;
+position: relative;
+left:50%;
+margin-left: -75px;
+top: 10px;
+}
+.forhead3 p{
+    font-weight:bold ;
+}
+.forhead4 p{
+    font-weight:bold ;
+}
+div.section-grise1{
+background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+background-color: var(--color2);
+padding-bottom: 70px;}
+
+div.section-grise1 p{
+    font-size: 22px;
+    color:#656565;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;  
+    }
+.col40{
+    width:40%;
+    }
+.col60{
+    width:60%;}
+.float-right{
+    float: right; }
+div.ligne-verticale{
+        border-left: 4px solid var(--color1);
+        padding-left: 8px;
+        height: 50px;
+        display: inline-block;
+        }
+div.ligne-verticale p{
+        margin-top: 0;
+        font-size: 20px;
+     } 
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0;
+} 
+div.barre-verticale{
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+.col-portofolio{
+    width:47%;
+} 
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color2);
+    font-size: 25px;
+}
+.footer-column1 a{
+    color: black;
+}
+div.frame{
+    margin:30px 50px ;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+   }
+   div.frame p:first-child{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;}
+ .footer-content ul li{
+    list-style-type: none;
+ }  
+ 
